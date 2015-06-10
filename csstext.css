@@ -137,7 +137,7 @@ nav li a:hover{color:#7b133c;
           background-repeat: no-repeat;
           width:100%;
           position:relative;
-          background-image:url(images/fifth.jpg);
+          background-image:url(/images/fifth.jpg);
           border-bottom: 10px solid rgba(0, 0, 0, 0.2);
           border-top: 10px solid rgba(0, 0, 0, 0.2);
           margin:0;
@@ -175,7 +175,7 @@ nav li a:hover{color:#7b133c;
 }
 #section2 .imgsection{ width: 400px;
           height: 400px;
-          background-image: url('images/myImage.jpg');
+          background-image: url('/images/myImage.jpg');
           background-size: cover;
           display: block;
           border-radius: 50%;
