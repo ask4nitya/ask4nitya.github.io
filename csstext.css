@@ -175,7 +175,7 @@ nav li a:hover{color:#7b133c;
 }
 #section2 .imgsection{ width: 400px;
           height: 400px;
-          background-image: url(images/fifth.jpg);
+          background-image:url(/images/myImage.jpg);
           background-size: cover;
           display: block;
           border-radius: 50%;
