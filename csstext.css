@@ -1,0 +1,344 @@
+body, html { height: 100%;
+}
+body {background: #111 none repeat scroll 0 0;
+          color: #fff;
+          font: 300 15px Oswald,sans-serif;
+          height: 100%;
+          text-align: left;
+          width: 100%;
+          overflow-x:hidden;
+}
+a { text-decoration:none;
+}
+.bottombar{ height:50px;
+          background: #222 none repeat scroll 0 0;
+          width:100%
+}
+h1{	font-size: 200px;
+          letter-spacing: -2px;
+          line-height: 0.8;
+          margin-bottom: 35px;
+          padding-top: 15px;
+          position: relative;
+          text-align: left;
+          text-transform: uppercase;
+          font-weight:500;
+}
+h1 span { color: #7b133c;
+          font-size: 125px;
+}
+h2 { font-size: 44px;
+          position: relative;
+          text-transform: uppercase;
+}
+h3 { font-size: 30px;
+          position: relative;
+}
+
+#homepage{ height:350px;
+          width: 100%;
+          margin : 0 auto;
+}
+#slideshow {margin:0 auto;
+          width:100%;
+          height:350px;
+          position:relative;
+}
+#slideshow #slidesContainer {
+          margin:0 auto;
+          width:850px;
+          height:350px;
+          overflow:hidden;
+          position:relative;
+}
+#slideshow #slidesContainer .slide {margin:0 auto;
+          width:820px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
+          height:350px;
+}
+.control{ display:block;
+          position:absolute;
+          height:40px;
+          width:40px;
+          cursor:pointer;
+          color:#fff;
+          font-size:32px;
+          font-weight:300;
+          border-radius:50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius:50%;
+          background-color:#222;
+          text-align:center;
+          padding-bottom:10px;
+}
+#leftControl {top:120px;
+          left:20px;
+}
+#rightControl {
+          top:120px;
+          right:20px;
+}
+nav {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+          border-bottom: 1px solid #333;
+          height: 50px;
+          margin-bottom: 10px;
+          text-align: center;
+          width: 100%;
+          z-index: 1000;
+          position:relative;
+}
+.navInner{margin: 0 auto;
+          width: 90%;
+}
+.headerName{ float:left;
+          letter-spacing:-2px;
+          color: #fff;
+}
+.largeBold{ font-size: 56px;
+          font-weight: 500;
+          text-transform: uppercase;
+}
+.mediumBold{ font-size: 44px;
+          font-weight: 500;
+          text-transform: uppercase;
+          color:#7b133c;
+}
+.small {font-size: 36px;
+          font-weight: 300;
+}
+.smallBold {font-size: 36px;
+          font-weight: 500;
+          text-transform: uppercase;
+}
+.menu{position:absolute;
+          left: 400px;
+          top:-13px;
+}
+nav ul{ display:inline;
+          height:40px;
+          padding-top:10px;
+          padding-bottom:15px;
+}
+nav li{list-style:none;
+          float:left;
+          margin:0;
+}
+nav li a{ color: #fff;
+          font-family: Oswald,sans-serif;
+          font-size: 22px;
+          font-weight: 500;
+          text-transform:uppercase;
+          padding:10px;
+}
+nav li a:hover{color:#7b133c;
+          transition: all 0.5s ease;
+}
+.parallax1{ height:450px;
+          background-attachment:fixed;
+          background-repeat: no-repeat;
+          width:100%;
+          position:relative;
+          background-image:url(images/fifth.jpg);
+          border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+          border-top: 10px solid rgba(0, 0, 0, 0.2);
+          margin:0;
+          padding:0;
+          text-align:center;
+}
+.parallax1 .tablewrap{display:table;
+          height:100%;
+          width:100%;
+}
+
+.parallax1 .tablewrap .cellwrap{	display: table-cell;
+          vertical-align: middle;
+}
+.parallax1 h3 span{ text-shadow: 0 0 5px #222;
+}
+.aboutpage{ width:100%;
+          margin:0;
+          padding:0;
+}
+.aboutInner{ width:90%;
+          height:1020px;
+          border-bottom: 1px solid #333;
+          margin:0 auto;
+          padding:0;
+          position:relative;
+}
+#section1{ float:left;
+          position:absolute;
+          width:500px;
+}
+#section2 { float:right;
+          position:absolute;
+          width:600px;
+}
+#section2 .imgsection{ width: 400px;
+          height: 400px;
+          background-image: url('images/myImage.jpg');
+          background-size: cover;
+          display: block;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius:50%;
+          float:right;
+          position:absolute;
+          left:600px;
+          top:200px;
+}
+#section2 .base1 {position:absolute;
+          float:right;
+          left:570px;
+          top:750px;
+}
+#section2 .base2 {position:absolute;
+          float:right;
+          left:730px;
+          top:750px;
+}
+#section2 .base3 {position:absolute;
+          float:right;
+          left:890px;
+          top:750px;
+}
+#section2 .baseInner{display:block;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius:50%;
+          height:150px;
+          width:150px;
+          background-color:#7b133c;
+          position:absolute;
+          text-align:center;
+          transition: all 0.1s ease-in-out 0s;;
+          -moz-transition:all 0.1s ease-in-out 0s;;
+          -webkit-transition:all 0.1s ease-in-out 0s;;
+}
+#section2 .baseInner p{ margin-top:55px;
+}
+#section2 .baseInner .description{display:none;
+}
+#skills .skillwidth {width:200px;
+          margin-left:53px;
+}
+h3.skillstyle{font-size:28px;
+          border-bottom:1px solid #333;
+          line-height: 30px;
+          font-weight:400;
+          margin-bottom: 10px;
+          text-shadow:2px 2px #7b133c;
+          padding-bottom:15px;
+}
+#skills .skill{font-size:18px;
+          text-transform: uppercase;
+          clear:left;
+          margin:0;
+}
+#skills .skill .subskill{font-size:11px !important;
+}
+#list ul li{list-style:none;
+          margin:10px;
+          padding:0;
+}
+.bar{ background-color:#7b133c;
+          height: 22px;
+          border-radius:10px;
+          color:#fff;
+          float:left;
+          width:22px;
+          display:inline-block;
+          margin-bottom:10px;
+          transition: all 0.6s ease-in-out 0s;
+}
+p.percent{opacity:0;
+          float:right;
+          transition: all 0.6s ease-in-out 0s;
+          text-align:right;
+          margin-right:4px;
+          margin-top:-1px;
+}
+#list:hover p.percent{opacity:1;}
+#list:hover .percent85{	width:85%; }
+#list:hover .percent80{	width:80%; }
+#list:hover .percent75{	width:75%; }
+#list:hover .percent70{	width:70%; }
+#list:hover .percent60{	width:60%; }
+#list:hover .percent55{	width:55%; }
+#list:hover .percent50{	width:50%; }
+
+.accordion {margin:150px 0 50px 0;
+}
+div.accordion h3 {background:#333;
+          color:#fff;
+          cursor:pointer;
+          margin:0 0 1px 0;
+          padding:4px 10px;
+          text-transform: uppercase;
+}
+div.accordion h3.current{ background:#fff;
+          color:#7b133c;
+          cursor:default;
+}
+.accordion h3 .point{color:#000; float:right;font-size:20px;
+}
+.proj-details{ display:none;
+}
+.contact{height:800px;
+          position:relative;
+}
+.contact .addstyle{ font-size:20px;
+          color:#fff;
+}
+.contact ul{margin:0;
+          padding:0;
+}
+.contact ul li{list-style:none;
+          margin:0;
+}
+.addstyle a {text-decoration:none;
+          color:#fff;
+}
+.addstyle a:hover{ color:#7b133c;
+          cursor:pointer;
+}
+#map-canvas{ width: 500px;
+          height: 400px;
+          position:absolute;
+          top:250px;
+          left:500px;
+}
+#close {display:none;
+          border-radius:50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius:50%;
+          height:27px;
+          width:27px;
+          position:absolute;
+          background-color:#7b133c;
+          color:#fff;
+          top:225px;
+          left:990px;
+}
+#mapwrap>p {cursor:pointer;
+          text-align:center;
+          margin-top:15px;
+}
+.contact #top{
+          display:block;
+          border-radius:50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius:50%;
+          height:60px;
+          width:60px;
+          background-color:#7b133c;
+          right:20px;
+          position:fixed;
+          bottom:70px;
+          opacity:0.7;
+}
+#top>p {font-size:22px;
+          font-weight:400;
+          cursor:pointer;
+          text-align:center;
+          margin-top:15px;
+}
