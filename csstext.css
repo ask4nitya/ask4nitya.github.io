@@ -58,8 +58,7 @@ h3 { font-size: 30px;
           width:820px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
           height:350px;
 }
-.control{ display:table-cell;
-          vertical-align:middle;
+.control{ display:block;
           position:absolute;
           background-color:#7b133c;
           height:40px;
