@@ -78,12 +78,11 @@ h3 { font-size: 30px;
           top:120px;
           right:30px;
 }
-#slideshow>p{ text-align:center;
-              font-size:36px;
+#slideshow>p{ font-size:26px;
               font-weight:400;
-              line-height:40px;
-              margin-top:-15px;
-              
+              cursor:pointer;
+              text-align:center;
+              margin-top:25px;
 }
 nav {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
           border-bottom: 1px solid #333;
@@ -328,9 +327,11 @@ div.accordion h3.current{ background:#fff;
           top:225px;
           left:990px;
 }
-#mapwrap>p {cursor:pointer;
-          text-align:center;
-          margin-top:15px;
+#mapwrap>p {font-size:22px;
+            font-weight:400;
+            cursor:pointer;
+            text-align:center;
+            margin-top:15px;
 }
 .contact #top{
           display:block;
