@@ -16,10 +16,10 @@
   		<div id="slideshow">
    			 <div id="slidesContainer">
       			<div class="slide">
-        			<img src="images/first.jpg" alt="pic1" width="750" height="310" />
+        			<img src="images/creativity.jpg" alt="pic1" width="750" height="310" />
       			</div>
       			<div class="slide">
-        			<img src="images/creativity.jpg" width="750" height="310" alt="pic2" />
+        			<img src="images/first.jpg" width="750" height="310" alt="pic2" />
       			</div>
       			<div class="slide">
         			<img src="images/new.jpg" width="750" height="310" alt="pic3" />
@@ -93,12 +93,12 @@
 			<div class="base2 base">
 				<div class="baseInner">
 					<p class="smallBold">B.E</p>
-					<p class="description">Electronic & Telecommunication,Pune India</p>
+					<p class="description">Bachelor of Electronic & <br/>Telecommunication,Pune India</p>
 				</div>
 			</div>	
 			<div class="base3 base">
 				<div class="baseInner">
-					<p class="smallBold">6<span style="font-size:44px;">+</span></p>
+					<p class="smallBold">6<span style="font-size:46px !important;">+</span></p>
 					<p class="description">6+ years of Experience</p>
 				</div>
 			</div> 
@@ -130,7 +130,7 @@
 						</div>
 					</li>
 					<li>
-						<p class="skill">jquery / json / ajax</p>
+						<p class="skill">jquery / angularjs / json / ajax</p>
 						<div class="bar percent70">
 							<p class="percent subskill">70%</p>
 						</div>
@@ -328,11 +328,8 @@
   manageControls(currentPosition);
 
   // Create event listeners for .controls clicks
-  $('.control')
-    .bind('click', function(){
-    // Determine new position
+  $('.control').bind('click', function(){
 	currentPosition = ($(this).attr('id')=='rightControl') ? currentPosition+1 : currentPosition-1;
-    
 	// Hide / show controls
     manageControls(currentPosition);
     // Move slideInner using margin-left
