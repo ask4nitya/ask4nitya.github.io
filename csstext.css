@@ -82,6 +82,7 @@ h3 { font-size: 30px;
               font-size:36px;
               font-weight:400;
               line-height:40px;
+              margin-top:-10px;
 }
 nav {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
           border-bottom: 1px solid #333;
