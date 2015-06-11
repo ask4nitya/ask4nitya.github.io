@@ -60,7 +60,8 @@ h3 { font-size: 30px;
 }
 .control{ display:block;
           position:absolute;
-          height:38px;
+          background-color:#7b133c;
+          height:40px;
           width:40px;
           cursor:pointer;
           color:#fff;
@@ -69,17 +70,17 @@ h3 { font-size: 30px;
           border-radius:50%;
           -webkit-border-radius: 50%;
           -moz-border-radius:50%;
-          background-color:#222;
-          border:1px solid #fff;
           text-align:center;
           padding-bottom:18px;
 }
 #leftControl {top:120px;
-          left:20px;
+              left:30px;
+              text-align:center;
 }
 #rightControl {
           top:120px;
-          right:20px;
+          right:30px;
+          text-align:center;
 }
 nav {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
           border-bottom: 1px solid #333;
