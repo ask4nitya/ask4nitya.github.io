@@ -181,6 +181,7 @@ nav li a:hover{color:#7b133c;
           border-radius: 50%;
           -webkit-border-radius: 50%;
           -moz-border-radius:50%;
+          border:10px solid #fff;
           float:right;
           position:absolute;
           left:600px;
