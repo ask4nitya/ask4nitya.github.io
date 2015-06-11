@@ -58,7 +58,7 @@ h3 { font-size: 30px;
           width:820px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */
           height:350px;
 }
-.control{ display: table-cell;
+.control{ display:table-cell;
           vertical-align:middle;
           position:absolute;
           background-color:#7b133c;
@@ -82,7 +82,7 @@ h3 { font-size: 30px;
 #slideshow>p{ text-align:center;
               font-size:36px;
               font-weight:400;
-              
+              line-height:40px;
               
 }
 nav {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
