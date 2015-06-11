@@ -65,8 +65,6 @@ h3 { font-size: 30px;
           width:40px;
           cursor:pointer;
           color:#fff;
-          font-size:32px;
-          font-weight:300;
           border-radius:50%;
           -webkit-border-radius: 50%;
           -moz-border-radius:50%;
@@ -75,14 +73,14 @@ h3 { font-size: 30px;
 }
 #leftControl {top:120px;
               left:30px;
-              text-align:center;
 }
 #rightControl {
           top:120px;
           right:30px;
-          text-align:center;
 }
 #slideshow>span{ text-align:center;
+                 font-size:32px;
+                 font-weight:300;
 }
 nav {background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
           border-bottom: 1px solid #333;
